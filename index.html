@@ -1,125 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="output.css" />
   </head>
-  <body class="bg-[#FCFBF9] flex flex-col justify-start relative">
-    <div class="absolute right-[-60px] top-[-50px]">
-      <img src="assets/bg-pattern-1.svg" alt="" />
+  <body
+    class="bg-[#FCFBF9] flex flex-col justify-center relative md:items-center overflow-x-hidden"
+  >
+    <!-- <img
+      class="absolute z-[99] scale-[1.2] right-[100px] hidden xl:flex"
+      src="assets/bg-main-desktop.png"
+      alt=""
+    /> -->
+
+    <div class="absolute top-[-50px] right-[40px] z-[999] hidden xl:flex">
+      <img class="hidden md:flex" src="assets/bg-pattern-1.svg" alt="" />
     </div>
 
-    <div class="px-7 relative overflow-hidden pb-[250px] md:px-9 md:pb-[300px]">
-      <nav class="flex py-10 text-3xl font-bold">
-        <h2>equalizer</h2>
-      </nav>
+    <div class="relative bg-[#FCFBF9] max-w-[1440px] md:w-full overflow-hidden">
+      <!-- <div class="absolute mt-[-100px] mr-[-400px] z-[90] md:mr-[0px]">
 
-      <main class="mt-10 relative md:mt-[70px]">
-        <h1 class="text-4xl font-bold md:text-7xl">
-          We make your <br />
-          music sound <br />
-          extraordinary
-        </h1>
-
-        <p class="mt-10 text-[15px] md:text-xl">
-          A system audio equalizer specifically designed
-          <br class="md:hidden" />
-          for Android and <br class="hidden md:flex" />
-          iOS. Freely tune the way your <br class="md:hidden" />
-          music sounds with a <br class="hidden md:flex" />
-          professional grade <br class="md:hidden" />
-          parametric EQ & volume mixer. Control <br class="hidden md:flex" />
-          bass, <br class="md:hidden" />
-          mids, treble, gain control, reverb, and more!
-        </p>
-      </main>
-
-      <div
-        class="w-[700px] h-[1200px] absolute right-[-310px] top-[-450px] md:left-[-100px] md:top-[-420px] md:scale-[1.5] md:w-[800px]"
-      >
         <img
-          class="w-full h-full md:hidden"
+          class="w-full h-full scale-[1.2] md:hidden"
           src="assets/bg-main-mobile.png"
           alt=""
         />
+
         <img
-          class="w-full h-full hidden md:flex"
+          class="w-full h-full hidden scale-[2.2] md:flex xl:hidden"
           src="assets/bg-main-tablet.png"
           alt=""
         />
-      </div>
-    </div>
+      </div> -->
 
-    <div class="relative flex flex-col items-center md:px-9">
-      <div
-        class="bg-[#191826] flex justify-center w-full relative md:rounded-3xl md:justify-start md:h-[550px]"
-      >
-        <img class="h-[468px]" src="assets/bg-pattern-2.svg" alt="" />
+      <div class="absolute right-[-60px] top-[-50px] z-[999] xl:hidden">
+        <img class="hidden md:flex" src="assets/bg-pattern-1.svg" alt="" />
       </div>
 
       <div
-        class="bg-[#FA7353] w-full flex flex-col px-5 py-10 relative mt-[-100px] md:rounded-2xl md:w-[360px] md:ml-[200px] md:mt-[-500px] md:px-10 z-[999]"
+        class="px-7 relative overflow-hidden pb-[150px] md:px-9 md:pb-[300px]"
       >
-        <!-- bottom-[-450px] -->
-        <h2 class="text-4xl font-bold">Premium EQ</h2>
-        <p class="mt-10 text-[15.5px] md:text-lg">
-          Get expert-level control with a <br class="hidden md:flex" />
-          robust <br class="md:hidden" />
-          equalizer, volume mixer, <br class="hidden md:flex" />
-          and spatial audio. <br class="md:hidden" />
-          Take your <br class="hidden md:flex" />
-          listenning experience to a whole <br class="hidden md:flex" />
-          new
-          <br class="md:hidden" />
-          level and access all our <br class="hidden md:flex" />
-          increible features!
-        </p>
-        <div class="flex items-center mt-14">
-          <span class="text-6xl font-bold">$4</span
-          ><span class="ml-3"> / month</span>
+        <nav class="flex py-10 text-3xl font-bold">
+          <h2>equalizer</h2>
+        </nav>
+
+        <main class="mt-10 relative md:mt-[70px] xl:mt-[100px]">
+          <h1 class="text-4xl font-bold md:text-7xl myxl:text-[100px]">
+            We make your <br class="xl:hidden" />
+            music <br class="hidden xl:flex" />
+            sound <br class="xl:hidden" />
+            extraordinary
+          </h1>
+
+          <p class="mt-10 text-[15px] md:text-xl xl:text-[22px]">
+            A system audio equalizer specifically designed
+            <br class="md:hidden" />
+            for Android and <br class="hidden md:flex xl:hidden" />
+            iOS. Freely tune <br class="hidden xl:flex" />
+            the way your <br class="md:hidden" />
+            music sounds with a <br class="hidden md:flex xl:hidden" />
+            professional grade <br class="md:hidden" />
+            parametric EQ & volume <br class="hidden xl:flex" />
+            mixer. Control
+            <br class="hidden md:flex xl:hidden" />
+            bass, <br class="md:hidden" />
+            mids, treble, gain control, reverb, and more!
+          </p>
+        </main>
+      </div>
+
+      <div class="relative flex flex-col items-center md:px-9">
+        <div
+          class="bg-[#191826] z-[800] flex justify-center w-full relative md:rounded-3xl md:justify-start md:h-[550px] xl:justify-center xl:h-[700px]"
+        >
+          <img
+            class="h-[468px] xl:h-[550px] mr-[50px]"
+            src="assets/bg-pattern-2.svg"
+            alt=""
+          />
         </div>
 
         <div
-          class="bg-[#191826] flex justify-center items-center py-5 rounded-2xl mt-8"
+          class="bg-[#FA7353] w-full flex flex-col px-5 py-10 relative mt-[-100px] md:rounded-2xl md:w-[360px] md:ml-[200px] md:mt-[-500px] md:px-10 z-[999] xl:w-[500px] xl:py-[50px] xl:ml-[470px] xl:scale-[1.2]"
         >
-          <div><img src="assets/icon-apple.svg" alt="" /></div>
-          <span class="text-white ml-3 font-bold text-base"> iOS Download</span>
+          <!-- bottom-[-450px] -->
+          <h2 class="text-4xl font-bold">Premium EQ</h2>
+          <p class="mt-10 text-[15.5px] md:text-lg">
+            Get expert-level control with a
+            <br class="hidden md:flex xl:hidden" />
+            robust <br class="md:hidden" />
+            equalizer, volume mixer, <br class="hidden md:flex xl:hidden" />
+            and spatial audio. <br class="md:hidden" />
+            Take your <br class="hidden md:flex xl:hidden" />
+            listenning experience to a whole
+            <br class="hidden md:flex xl:hidden" />
+            new
+            <br class="md:hidden" />
+            level and access all our <br class="hidden md:flex" />
+            increible features!
+          </p>
+          <div class="flex items-center mt-14">
+            <span class="text-6xl font-bold">$4</span
+            ><span class="ml-3"> / month</span>
+          </div>
+
+          <div
+            class="bg-[#191826] flex justify-center items-center py-5 rounded-2xl mt-8"
+          >
+            <div><img src="assets/icon-apple.svg" alt="" /></div>
+            <span class="text-white ml-3 font-bold text-base">
+              iOS Download</span
+            >
+          </div>
+
+          <div
+            class="bg-[#ffffff] flex justify-center items-center py-5 rounded-2xl mt-4"
+          >
+            <div><img src="assets/icon-android.svg" alt="" /></div>
+            <span class="ml-3 font-bold text-base"> Android Download</span>
+          </div>
         </div>
 
-        <div
-          class="bg-[#ffffff] flex justify-center items-center py-5 rounded-2xl mt-4"
-        >
-          <div><img src="assets/icon-android.svg" alt="" /></div>
-          <span class="ml-3 font-bold text-base"> Android Download</span>
+        <img
+          class="h-[430px] z-[990] absolute top-[-100px] md:mr-[330px] md:scale-[1.4] md:top-[-80px] xl:scale-[1.8] xl:mr-[700px] xl:top-[20px]"
+          src="assets/illustration-app.png"
+          alt=""
+        />
+      </div>
+
+      <footer
+        class="px-7 xl:flex justify-between items-center xl:mt-[200px] xl:mb-[50px]"
+      >
+        <div class="flex py-10 text-3xl font-bold">
+          <h2>equalizer</h2>
         </div>
-      </div>
 
-      <img
-        class="h-[430px] absolute top-[-100px] md:mr-[330px] md:scale-[1.4] md:top-[-80px]"
-        src="assets/illustration-app.png"
-        alt=""
-      />
-    </div>
+        <div class="md:flex md:full justify-between">
+          <p class="text-md">
+            All rights reserved © Equalizer 2021 <br />Have any problems?
+            Contact us via social <br class="md:hidden" />media or email us at
+            <br />
+            <span class="font-bold">equalizer@example.com</span>
+          </p>
+          <div class="mt-7 flex mb-[80px] md:mb-[100px] xl:hidden">
+            <img class="mr-6" src="assets/icon-facebook.svg" alt="fb-icon" />
+            <img class="mr-6" src="assets/icon-instagram.svg" alt="ig-icon" />
+            <img src="assets/icon-twitter.svg" alt="x-icon" />
+          </div>
+        </div>
 
-    <footer class="px-7">
-      <div class="flex py-10 text-3xl font-bold">
-        <h2>equalizer</h2>
-      </div>
-
-      <div class="md:flex md:full justify-between">
-        <p class="text-md">
-          All rights reserved © Equalizer 2021 <br />Have any problems? Contact
-          us via social <br class="md:hidden" />media or email us at <br />
-          <span class="font-bold">equalizer@example.com</span>
-        </p>
-        <div class="mt-7 flex mb-[100px]">
+        <div class="hidden xl:flex xl:justify-center">
           <img class="mr-6" src="assets/icon-facebook.svg" alt="fb-icon" />
           <img class="mr-6" src="assets/icon-instagram.svg" alt="ig-icon" />
           <img src="assets/icon-twitter.svg" alt="x-icon" />
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
