@@ -6,16 +6,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css" />
   </head>
-  <body>
-    <div class="px-7">
+  <body class="bg-[#FCFBF9] flex flex-col justify-start">
+    <div class="px-7 relative overflow-hidden pb-[150px]">
       <nav class="flex py-10 text-3xl font-bold">
         <h2>equalizer</h2>
       </nav>
 
-      <main class="mt-10">
+      <main class="mt-10 relative">
         <h1 class="text-4xl font-bold">
           We make your <br />
-          music sound extraordinary
+          music sound <br />
+          extraordinary
         </h1>
 
         <p class="mt-10 text-[15px]">
@@ -26,16 +27,21 @@
           mids, treble, gain control, reverb, and more!
         </p>
       </main>
+
+      <div class="w-[700px] h-[1200px] absolute right-[-310px] top-[-450px]">
+        <img class="w-full h-full" src="assets/bg-main-mobile.png" alt="" />
+      </div>
     </div>
 
-    <div class="relative">
-      <div class="bg-[#191826] flex justify-center">
+    <div class="relative flex flex-col items-center">
+      <div class="bg-[#191826] flex justify-center w-full relative">
         <img src="assets/bg-pattern-2.svg" alt="" />
       </div>
 
       <div
-        class="bg-[#FA7353] w-full flex flex-col px-5 py-10 absolute bottom-[-280px]"
+        class="bg-[#FA7353] w-full flex flex-col px-5 py-10 relative mt-[-100px]"
       >
+        <!-- bottom-[-450px] -->
         <h2 class="text-4xl font-bold">Premium EQ</h2>
         <p class="mt-10 text-[15.5px]">
           Get expert-level control with a robust <br />
@@ -47,7 +53,46 @@
           <span class="text-6xl font-bold">$4</span
           ><span class="ml-3"> / month</span>
         </div>
+
+        <div
+          class="bg-[#191826] flex justify-center items-center py-5 rounded-2xl mt-8"
+        >
+          <div><img src="assets/icon-apple.svg" alt="" /></div>
+          <span class="text-white ml-3 font-bold text-base"> iOS Download</span>
+        </div>
+
+        <div
+          class="bg-[#ffffff] flex justify-center items-center py-5 rounded-2xl mt-4"
+        >
+          <div><img src="assets/icon-android.svg" alt="" /></div>
+          <span class="ml-3 font-bold text-base"> Android Download</span>
+        </div>
       </div>
+
+      <img
+        class="h-[430px] absolute top-[-100px]"
+        src="assets/illustration-app.png"
+        alt=""
+      />
     </div>
+
+    <footer class="px-7">
+      <div class="flex py-10 text-3xl font-bold">
+        <h2>equalizer</h2>
+      </div>
+
+      <div>
+        <p class="text-sm">
+          All rights reserved © Equalizer 2021 <br />Have any problems? Contact
+          us via social <br />media or email us at <br />
+          <span class="font-bold">equalizer@example.com</span>
+        </p>
+        <div class="mt-7 flex mb-16">
+          <img class="mr-6" src="assets/icon-facebook.svg" alt="fb-icon" />
+          <img class="mr-6" src="assets/icon-instagram.svg" alt="ig-icon" />
+          <img src="assets/icon-twitter.svg" alt="x-icon" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
